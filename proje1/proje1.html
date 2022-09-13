@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Proje1!</title>
+</head>
+<body>
+
+ <div class="navbar" id="myNavbar">
+    <ul>
+        <li>
+            <a href="proje1.html" id="tay" style="float: left;">TAY</a>
+            <a href="#project">PROJECT</a>
+            <a href="#about">ABOUT</a>
+            <a href="#home">HOME</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </li>
+    </ul>
+</div>
+
+<div class="container" style="width:1200px;">
+    <img src="/img/img2.jpg" width="270" height="270" alt="tay">
+    <h1 style="text-align: center;">Hi There, I'm TAY
+   
+    <hr style="width:870px;margin: 15px;">
+</h1>
+    <p>I am a young software developer.
+        I am currently in the scope of developing <br>Front End Language...</p>
+
+        <div class="main " style="width: 1200px;">
+            <h3>-  PROJECT  -</h3>
+            <hr style="margin:30px;">
+            <br>
+            <img src="/img/1.webp" width="270" height="270" alt="tay">
+            <img src="/img/2.jpg" width="270" height="270" alt="tay">
+            <img src="/img/3.jpg" width="270" height="270" alt="tay">
+            <img src="/img/4.jpg" width="270" height="270" alt="tay">
+
+        </div>
+</div>
+
+        <footer>
+            <h2>All Rights Reserved Copyright Arda Kulak 2022 ©</h2>
+        </footer>
+
+ <script>
+    function myFunction() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+    </script>
+</body>
+</html>

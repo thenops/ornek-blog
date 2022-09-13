@@ -1,0 +1,120 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#a9a9a9,#721185);
+  border-radius: 10px;
+}
+body{
+    background-image: url('/background.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.navbar{
+  background-color: black;
+    height: 100px;
+    opacity: 0.75;
+}
+.navbar ul{
+    list-style-type: none;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+.navbar li{
+    text-align: center;
+    padding: 16px 24px;
+
+}
+.navbar .icon {
+    display: none;
+  }
+ .navbar li a:hover{
+    background-color: #721185;
+ }
+  #tay{
+    font-size: 30px;
+font-family: 'Lato', sans-serif;
+
+  }
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      bottom:0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+  }
+/*finish navbar*/
+
+img{
+    width: 270px;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform .1s; /* Animation */
+    
+}
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+h1{
+    color: #721185;
+    margin-top: 60px;
+    padding: 25px;
+    opacity: 0.7;
+    font-family: 'Roboto', sans-serif;
+
+}
+p{
+    margin-left: 25%;
+    font-family: 'Roboto', sans-serif;
+   color:white;
+}
+.main h3{
+    margin-top: 250px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   color: #721185;
+
+}
+footer h2{
+    margin-top: 350px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+   opacity: 0.75;
+
+}
